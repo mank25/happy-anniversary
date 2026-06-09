@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://mank25.github.io/happy-anniversary",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^11.3.0",
@@ -18,6 +21,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.3.0",
     "playwright": "^1.60.0",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4",
