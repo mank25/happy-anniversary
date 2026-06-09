@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Dependency directories (if using npm)
+node_modules/
+
+# Build output (if using a bundler like Vite)
+dist/
+build/

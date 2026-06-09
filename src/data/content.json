@@ -1,0 +1,136 @@
+{
+  "password": "24062019",
+  "couple": {
+    "partner1": " ",
+    "partner2": " "
+  },
+  "anniversaryDate": "24-06-2019",
+  "anniversaryYears": 7,
+  "heroMessage": "Seven years.\nCountless memories.\nInfinite laughter.\nA little madness.\nAnd somehow, every day, I choose you again.",
+  "anniversaryMessage": "Happy 7th Anniversary",
+  "proposalQuestion": "To celebrate 7 years of surviving me,\nwould you like to go on a date?",
+  "yesResponse": "He said YES! ❤️",
+  "noResponse": "Boyfriend malfunctioning. Please restart and try again.",
+  "photos": [
+    {
+      "id": 1,
+      "src": "/images/1-1.jpeg",
+      "alt": "Golden hour together"
+    },
+    {
+      "id": 2,
+      "src": "/images/1-2.jpeg",
+      "alt": "Laughing together"
+    },
+    {
+      "id": 3,
+      "src": "/images/1-3.jpeg",
+      "alt": "Sunset silhouette"
+    },
+    {
+      "id": 4,
+      "src": "/images/1-4.jpeg",
+      "alt": "In bloom"
+    },
+    {
+      "id": 5,
+      "src": "/images/1-5.jpeg",
+      "alt": "Warm memories"
+    },
+    {
+      "id": 6,
+      "src": "/images/1-6.jpeg",
+      "alt": "Always you"
+    }
+  ],
+  "videoUrl": "/12.mp4",
+  "milestones": [
+    {
+      "year": "2019",
+      "title": "The Beginning..",
+      "description": "Two random college kids who had no idea about how far they could go.. our first college trip happened and then internship phase brought us closer and soon we almost started secretly dating without officially dating 😉",
+      "photo": "/images/2019.jpeg"
+    },
+    {
+      "year": "2020",
+      "title": "Corona Started and College ended…",
+      "description": "Year started with a Goa trip but soon pandemic hit… we realised we were not just fooling around but had serious feelings. Endless video calls and short meet-ups phase, but by the year end college ended but not our feelings.. 🥺",
+      "photo": "/images/2020.jpeg"
+    },
+    {
+      "year": "2021",
+      "title": "Corona continued and so did our online dating…",
+      "description": "We had a difficult year with the pandemic, sorting our careers, starting my business but somehow we stayed strong. We had each other's back throughout 🧿",
+      "photo": "/images/2021.jpeg"
+    },
+    {
+      "year": "2022",
+      "title": "Long Distance Begins",
+      "description": "We went on so many dates, tried endless cafes and desserts during these years, this was the year of our Sikkim trip, and then you decided to move 11,670 kms apart ❤️‍🩹 — had the hardest months and days of our life adjusting to living miles apart..",
+      "photo": "/images/2022.jpeg"
+    },
+    {
+      "year": "2023",
+      "title": "First Year of Long Distance",
+      "description": "You visited India and attended my family function, didn't want you to go back but… While learning to live apart we learned so much about adjustment, prioritising each other and handling misunderstandings. We started spending birthdays and festivals apart 🥺💔",
+      "photo": "/images/2023.jpeg"
+    },
+    {
+      "year": "2024",
+      "title": "The Year of Most Memorable Trip!",
+      "description": "We had our first international trip together which we would never forget 😅. We unlocked core memories of our life! Again it was time for you to go back across the ocean and we had to spend the rest apart.. 🥺",
+      "photo": "/images/2024.jpeg"
+    },
+    {
+      "year": "2025",
+      "title": "The Year You Ended Long Distance",
+      "description": "Finallyy… no more countdowns till the next meeting. With bittersweet memories long distance came to an end. Delhi started feeling the same again. Was time to enjoy everything together just like old times 🫶🏻",
+      "photo": "/images/2025.jpeg"
+    }
+  ],
+  "itinerary": [
+    {
+      "id": 1,
+      "time": "10:00 AM",
+      "activity": "Coffee",
+      "description": "Start the day with your favourite brew",
+      "icon": "coffee"
+    },
+    {
+      "id": 2,
+      "time": "1:00 PM",
+      "activity": "Lunch",
+      "description": "A meal worth the wait",
+      "icon": "utensils"
+    },
+    {
+      "id": 3,
+      "time": "3:00 PM",
+      "activity": "Surprise Activity",
+      "description": "You'll just have to find out",
+      "icon": "gift"
+    },
+    {
+      "id": 4,
+      "time": "6:00 PM",
+      "activity": "Sunset Walk",
+      "description": "Golden hour, together",
+      "icon": "sunset"
+    },
+    {
+      "id": 5,
+      "time": "8:00 PM",
+      "activity": "Dinner",
+      "description": "End the night perfectly",
+      "icon": "wine"
+    }
+  ],
+  "music": "/music/song.mp3",
+  "theme": {
+    "primary": "#F8F5F0",
+    "secondary": "#E7DDCF",
+    "accent": "#C8A76A",
+    "charcoal": "#2E2E2E",
+    "deepBrown": "#5B4636"
+  }
+}
