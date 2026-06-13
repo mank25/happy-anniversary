@@ -61,6 +61,7 @@ export default function PasswordGate({ onUnlock }) {
   const [value, setValue] = useState('')
   const [error, setError] = useState('')
   const [showPw, setShowPw] = useState(false)
+  const [showHint, setShowHint] = useState(false)
   const [phase, setPhase] = useState('idle')
   const [burstAngles] = useState(() =>
     PETALS.map((_, i) => (i / PETALS.length) * Math.PI * 2)
@@ -180,17 +181,42 @@ export default function PasswordGate({ onUnlock }) {
             </motion.div>
           </div>
 
-          <div className="text-center mb-8">
+          <div className="text-center mb-5">
             <h1 className="font-serif text-2xl mb-3" style={{ color: '#2E2E2E' }}>
               Enter the Love Password
             </h1>
             <div className="gold-divider-sm mb-3" />
-            <p className="font-sans text-sm" style={{ color: '#7A6251' }}>
-              Only true memories unlock this story.
+            <p className="font-sans text-xs" style={{ color: '#A08060' }}>
+              If this takes more than 3 attempts, I'm a little concerned…
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-5">
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <div className="text-center -mb-1">
+              <button
+                type="button"
+                onClick={() => setShowHint((h) => !h)}
+                className="font-sans text-xs underline underline-offset-2 decoration-dotted transition-opacity hover:opacity-80"
+                style={{ color: '#A08060' }}
+              >
+                {showHint ? 'hide hint' : 'need a hint?'}
+              </button>
+              <AnimatePresence>
+                {showHint && (
+                  <motion.p
+                    initial={{ opacity: 0, y: -4 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -4 }}
+                    transition={{ duration: 0.25 }}
+                    className="font-serif text-xs italic mt-1.5"
+                    style={{ color: '#7A6251' }}
+                  >
+                    You had 7 years to remember the digits&nbsp;✨
+                  </motion.p>
+                )}
+              </AnimatePresence>
+            </div>
+
             <div className="relative">
               <input
                 type={showPw ? 'text' : 'password'}
@@ -245,6 +271,7 @@ export default function PasswordGate({ onUnlock }) {
             >
               {phase === 'opening' ? 'Unlocking...' : 'Unlock Memories'}
             </button>
+
           </form>
         </motion.div>
       </motion.div>
